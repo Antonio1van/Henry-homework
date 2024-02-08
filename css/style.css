@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+/*Cabezal*/
+.head {
+    
+    text-align: center;
+    background-color: #333;
+    color: yellowgreen;
+    padding: 5px;
+}
+
+
+
+/*Contenedor*/
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ccc;
+}
+/*Hijos*/
+.cards {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*fotos*/
+.logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+    
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
